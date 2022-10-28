@@ -21,7 +21,6 @@ function base64(){
     }else if (document.querySelector(".decodificar").checked){
         event.preventDefault
         var final = atob(base);
-         alert("Decodificar mensagem!")
         document.querySelector(".resultado").innerHTML = final;
     }
 }
