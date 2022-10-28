@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("img/outerspace-72.gif"); 
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(80, 2, 73);
+  font-size: 30px;
+}
+
+/*cabeçalho*/
+.cabeca {
+  text-align: center;
+  color:white;
+}
+
+/*Main*/
+main {
+  height: 90vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.um {
+  padding: 20px;
+}
+
+.dois {
+  padding: 20px;
+
+}
+
+.tres {
+  padding: 20px;
+}
+
+.quatro {
+  padding: 20px;
+}
+
+.cinco {
+  padding: 20px;
+}
+
+.seis {
+  padding: 20px;
+}
+
+/*footer*/
+.fute {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
