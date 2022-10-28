@@ -10,20 +10,19 @@ function btn() {
 }
 
 //base64
-function base64() {
+function base64(){
     var base = document.querySelector(".recebe").value;
 
-    if (document.querySelector(".codificar").checked) {
+    if(document.querySelector(".codificar").checked) {
         event.preventDefault
+        alert("Codificar mensagem!")
         var final = btoa(base);
-        alert("Codificar Mensagem!")
         document.querySelector(".resultado").innerHTML = final;
-    } else if (document.querySelector(".decodificar").checked) {
-        event.preventDefault;
-        var final = btoa(base);
-        var final1 = atob(final);
-        alert("Decodificar Mensagem!")
-        document.querySelector(".resultado").innerHTML = final1;
+    }else if (document.querySelector(".decodificar").checked){
+        event.preventDefault
+        var final = atob(base);
+         alert("Decodificar mensagem!")
+        document.querySelector(".resultado").innerHTML = final;
     }
 }
 
